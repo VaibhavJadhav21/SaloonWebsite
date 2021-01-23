@@ -1,0 +1,141 @@
+<html>
+    <head>
+<style>
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.topbar{
+    width: 100%;
+    height: 90px;
+   
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 100px;
+    height: 90px;
+    /* margin-right: 700px; */
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+    /* margin-left:20px; */
+    margin-right: 0px;
+    width: 80%;
+}
+h1{
+    font-size: 170px;
+    font-family: 'Anton', sans-serif;
+
+}
+.left{
+    float: left;
+}
+.rimg img{
+margin-left:70px;
+height: 440px;
+border-left: 1px dashed black;
+}
+.w3-button {width:150px;}
+h1:hover{
+   color: cornflowerblue;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    font-style: oblique;
+    padding: 10px 0px;
+}
+
+
+
+</style>
+    </head>
+    <body>
+<header class="topbar">
+<div class="logo">
+    <img src="Abc.gif">
+
+</div>
+<nav>
+    <a href="#">Home&nbsp;&nbsp;&nbsp;</a>
+    <a href="#">&nbsp;&nbsp;&nbsp;Services</a>
+    <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Offers</a>
+    <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About us</a>
+  
+</nav>
+
+</header>
+
+<section class="left">
+    <div>
+        <h1> &nbsp;&nbsp;Abc</h1>
+        <h1>&nbsp;Saloon</h1>
+    </div>
+</section>
+<section>
+    <div class=" rimg"> 
+        <img src="slimg.png">
+    </div>
+</section>
+<hr>
+
+<h3>-&nbsp;CONTACT FORM&nbsp;- </h3>
+
+<div class="container">
+  
+  <form action="userinfo.php" method="POST">
+    <label for="NAME"><b>Name</b></label>
+    <input type="text" id="NAME" name="NAME" placeholder="Your name..">
+
+    
+
+    <label for="CONTACT_NO"><b>Contact Number</b></label>
+    <input type="text" id="CONTACT_NO" name="CONTACT_NO" placeholder="Your contact Number..">
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+    </body>
+</html>
